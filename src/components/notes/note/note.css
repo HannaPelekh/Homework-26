@@ -1,0 +1,37 @@
+.note_items{
+    width: 33%;
+    height: 37vh; 
+    
+}
+.note_items:nth-child(1n) {    
+    background: url(../../../img/note.png);
+    background-repeat: no-repeat;
+    background-size: 92%;    
+}
+.note_items:nth-child(2n) {
+    background: url(../../../img/note2.png);
+    background-repeat: no-repeat;
+    background-size: 92%;    
+
+}
+.note_input{    
+    font-family: 'Montserrat', sans-serif;
+    margin: 9vh 5.5vw;
+    font-size: 23px; 
+    max-width: 180px; 
+    height: 50px; 
+    font-weight: 800;
+    color: #3c6e6e;
+    background-color: rgba(255, 255, 255, 0); 
+    text-align: center
+}
+.title{
+    font-family: 'Montserrat', sans-serif;
+    margin: 10vh 5vw;
+    font-size: 23px; 
+    max-width: 200px; 
+    height: 100px;
+    color: #fff; 
+    text-align: center;
+    cursor: pointer;
+}
